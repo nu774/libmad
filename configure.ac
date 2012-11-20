@@ -24,6 +24,7 @@ dnl Process this file with autoconf to produce a configure script.
 AC_INIT([MPEG Audio Decoder], [0.15.1b], [support@underbit.com], [libmad])
 AC_PREREQ(2.53)
 
+AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([decoder.h])
 
 AM_INIT_AUTOMAKE
